@@ -1,0 +1,56 @@
+
+.user-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px; 
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display:flex;
+  justify-content: space-between; /* Ensure content is spaced apart */
+  /* height: 200px; Height of each card */
+  align-items:center;
+  background-color: #aeecc0;
+}
+.user-item :nth-child(n){
+  flex:1
+}
+
+.user-item:hover {
+  box-shadow: 0 4px 8px #d509a9cd;
+}
+
+
+.user-item-button {
+  
+  background-color:#28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px; /* Padding inside the button */
+  cursor: pointer;
+  font-size: 0.8rem; /* Font size of the button text */
+  transition: background-color 0.3s ease;
+  margin-right: 5px; /* Reduced margin between buttons */
+  padding: 5px 10px; /* Smaller padding for smaller buttons */
+  border: none;
+  background-color:#28a745 ;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px; /* Slightly smaller border radius */
+  font-size: 0.8rem; /* Smaller font size */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  max-width:70px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-item-button:hover {
+  background-color: #03250b;
+  transform: scale(1.05);
+}
+
+.user-item-button:focus {
+  outline: none;
+}

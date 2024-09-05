@@ -1,0 +1,76 @@
+/* Existing styles */
+.user-list-header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:8px;
+}
+
+.user-list-container {
+  padding: 20px;
+}
+
+.user-list-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.user-item-container {
+  border: 1px solid #ddd;
+  /* padding: 15px; */
+  /* margin: 10px 0; */
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  
+  display: flex;
+  
+  flex-direction: column;
+  min-height: max-content;
+  /* width:80%; */
+  gap: 20px; 
+}
+
+/* New styles for Add user button */
+
+.add-user-button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from link */
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is on top */
+}
+
+.add-user-button:hover {
+  background-color: #03250b;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.page-info {
+  margin: 0 10px;
+}
